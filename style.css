@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header_top{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border-bottom: 1px groove #cecede;
+    color: #353543;
+}
+.top1{
+    height: 45px;
+    width: 160px;
+}
+.top1 img{
+    height: 36px;
+    width: 156px;
+}
+
+/* ------------------top 2---------- */
+.top2{
+    height: 45px;
+    width: 400px;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.top2 i{
+    padding-left: 10px;
+    font-size: 1.4rem;
+    color: #a1a1a1;
+}
+
+.top2 input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 8px;
+    font-size: 1.1rem;
+
+}
+
+::placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* ---------------top 3---------- */
+.top3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+    color: #353543;
+    font-size: 1.1rem;
+}
+
+.topspace{
+    height: 40px;
+    width: 2px;
+    border-right: 2px solid #cecede;
+}
+
+.top4,
+.top5,
+.top6{
+    font-size: 1.1rem;
+}
+
+.top6{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hovertop{
+    height: 72px;
+    border-bottom: 3px solid transparent;
+}
+.hovertop:hover{
+    height: 72px;
+    border-bottom: 3px solid #9f2089;
+    color: #9f2089;
+    font-weight: 500;
+}
+
+/* --------------------------------------------Header Down--------- */
+
+.header_down{
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    border-bottom: 1px groove #cecede;
+    font-size: 1.1rem;
+}
+
+.hoverdown{
+    height: 52px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+}
+
+.hoverdown:hover{
+    height: 52px;
+    border-bottom: 3px solid #9f2089;
+    color: #9f2089;
+    font-weight: 500;
+}
+
+
+/* ===================================== */ 
